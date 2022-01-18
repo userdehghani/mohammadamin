@@ -1,0 +1,48 @@
+{
+  "name": "mohammadamin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "cv",
+    "cli"
+  ],
+  "author": "Mohammad Amin Dehghani <m.a.dehghani609@gmail.com>",
+  "license": "MIT",
+  "description": "the cli version of my CV",
+  "files": [
+    "lib/",
+    "README.md"
+  ],
+  "bin": {
+    "mohammadamin": "lib/index.js"
+  },
+  "scripts": {
+    "clean": "shx rm -rf ./lib",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start": "ts-node-dev --transpile-only src/index.tsx",
+    "prerelease": "npm run build",
+    "release": "np"
+  },
+  "dependencies": {
+    "console-clear": "1.1.1",
+    "ink": "3.2.0",
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.35",
+    "prettier": "2.4.1",
+    "shx": "0.3.3",
+    "ts-node": "10.4.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userdehghani/mohammadamin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/userdehghani/mohammadamin/issues"
+  },
+  "homepage": "https://github.com/userdehghani/mohammadamin#readme"
+}
