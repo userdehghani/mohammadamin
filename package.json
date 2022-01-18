@@ -14,7 +14,7 @@
     "README.md"
   ],
   "bin": {
-    "mohammadamin": "lib/index.js"
+    "mohammadamin": ".lib/index.js"
   },
   "scripts": {
     "clean": "shx rm -rf ./lib",
