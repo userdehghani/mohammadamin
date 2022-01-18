@@ -14,7 +14,7 @@
     "README.md"
   ],
   "bin": {
-    "mohammadamin": ".lib/index.js"
+    "mohammadamin": "./lib/index.js"
   },
   "scripts": {
     "clean": "shx rm -rf ./lib",
@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@types/react": "17.0.35",
-    "prettier": "2.4.1",
     "np": "7.6.0",
+    "prettier": "2.4.1",
     "shx": "0.3.3",
     "ts-node": "10.4.0",
     "ts-node-dev": "1.1.8",
