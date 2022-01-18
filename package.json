@@ -22,7 +22,7 @@
     "build": "tsc",
     "start": "ts-node-dev --transpile-only src/index.tsx",
     "prerelease": "npm run build",
-    "release": "np --no-tests"
+    "release": "np"
   },
   "dependencies": {
     "console-clear": "1.1.1",
@@ -32,6 +32,7 @@
   "devDependencies": {
     "@types/react": "17.0.35",
     "prettier": "2.4.1",
+    "np": "7.6.0",
     "shx": "0.3.3",
     "ts-node": "10.4.0",
     "ts-node-dev": "1.1.8",
