@@ -22,7 +22,7 @@
     "build": "tsc",
     "start": "ts-node-dev --transpile-only src/index.tsx",
     "prerelease": "npm run build",
-    "release": "np"
+    "release": "np --no-tests"
   },
   "dependencies": {
     "console-clear": "1.1.1",
